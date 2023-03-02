@@ -1,0 +1,111 @@
+*{
+    margin: 0 ;
+    padding: 0 !important;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(53,203,129);
+    background: radial-gradient(circle, rgba(53,203,129,1) 0%, rgba(21,42,35,1) 100%);
+    width: 100%;
+    height: 35vh;
+    border-bottom: 5px solid black;
+}
+h1 {
+    font-family: oleo script;
+    font-size: xx-large;
+}
+h2 {
+    font-family: pattaya;
+    font-size: xx-large;
+}
+h3 {
+    font-family: francois one;
+}
+
+.portada {
+    gap: 1rem;
+    text-align: center;
+    align-self: center;
+    flex-direction: column;
+}
+
+.socialbar {
+    gap: 1rem;
+    justify-content: end;
+    align-self: flex-end;
+    justify-content: end;
+}
+.socialbar i{
+    color: rgb(44, 175, 207);
+}
+header i{
+    color: rgb(253, 253, 253);
+}
+.caja {
+    border: 4px rgb(19, 18, 49);
+    box-shadow: 6px rgb(235, 248, 248);
+}
+main{
+    display: flex;
+    background-image:url(/assets/img/white-triangle-pattern-seamless-background-5.jpg) !important;
+    background-size: contain;
+}
+main img{
+    width:30vw;
+}
+.caja img{
+    width: 150px;
+    background-color: white;
+    border-radius:2rem;
+}
+#foto_de_perfil img{
+    width: 30vw;
+    max-width: 240px;
+    border-radius: 50%;
+    border: 5px solid black;
+    position: absolute;
+    top:7rem;
+    left: 0.7rem;
+}
+#info{
+    order:2;
+    padding-left: 5vw !important;
+    object-position: center;
+    background-size: contain;
+}
+#info li{ 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+section{
+    background-image: url(/assets/img/img_cerro.jpg);
+    background-repeat:no-repeat ;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    order: 1;
+    width: 50vw;
+    max-width: 250px;
+    border-right: 5px solid black;
+    font-family: kaushan script;
+}
+#educacion img {
+    width: 30vw;
+    max-width: 30vh;
+
+}
+#experiencia li{
+    list-style: none;
+}
+
+/* #show{
+    margin-left: 5vw !important;
+    display: none;
+    display: ;
+} */
+
