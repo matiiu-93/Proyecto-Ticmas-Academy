@@ -103,9 +103,9 @@ section{
     list-style: none;
 }
 
-/* #show{
-    margin-left: 5vw !important;
-    display: none;
-    display: ;
-} */
+#show {
+    background-color: rgba(128, 128, 128, 0.432);
+    border-radius: 1rem;
+    visibility: hidden;
+}
 
